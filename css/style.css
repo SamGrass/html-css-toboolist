@@ -4,10 +4,13 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+body{
+    background-color: rgba(231, 231, 231, 0.808);
+}
 /* style header */
 header{
-    margin: 10px 20px;
+    padding: 10px 20px;
+    background-color: white;
 }
 #logo-boolean{
     height: 50px;
@@ -22,7 +25,6 @@ header{
 /* background grigio */
 .grey-bg{
     padding: 20px 350px 10px;
-    background-color: rgba(231, 231, 231, 0.5);
 }
 
 /* style container-main */
@@ -31,7 +33,7 @@ header{
 }
 .container.top{
     padding: 15px 40px 10px;
-    border-bottom: 3px solid rgba(231, 231, 231, 0.5);
+    border-bottom: 3px solid rgba(231, 231, 231, 0.808);
     border-radius: 5px 5px 0 0 ;
 }
 .container.bottom{
