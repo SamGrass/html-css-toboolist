@@ -35,6 +35,59 @@ header{
     border-radius: 5px 5px 0 0 ;
 }
 .container.bottom{
-    padding: 30px 40px;
+    padding: 30px 40px 10px;
     border-radius: 0 0 5px 5px;
+}
+
+/* style bottoni */
+.bottone{
+    padding: 4px;
+}
+.bottone.blu{
+    background-color: #47adf1;
+    color: white;
+    border: 2px solid #47adf1;
+    border-radius: 10%;
+}
+.bottone.bianco{
+    background-color: white;
+    color: rgb(198, 209, 220);
+    border: 2px solid rgb(198, 209, 220);
+    border-radius: 10%;
+}
+
+/* style to do list */
+.titolo-tdl::before{
+    content: "\21D3";
+    padding-right: 10px;
+}
+.testo-tdl{
+    padding-top: 10px;
+}
+.container-tdl{
+    margin-bottom: 40px;
+}
+
+/* style check cross */
+.tdl::before{
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 10px;
+}
+.tdl.ok::before{
+    content: "\2713";
+    color: green;
+    border: 2px solid green;
+}
+
+
+/* style etichette */
+.etichette{
+    color: white;
+    font-size: 13px;
+    padding: 7px 10px;
+    border-radius: 30%;
+}
+.etichette.blu{
+    background-color: #47adf1;
 }
