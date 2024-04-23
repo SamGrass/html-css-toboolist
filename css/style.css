@@ -18,3 +18,23 @@ header{
     display: inline-block;
     font-weight: 700;
 }
+
+/* background grigio */
+.grey-bg{
+    padding: 20px 350px 10px;
+    background-color: rgba(231, 231, 231, 0.5);
+}
+
+/* style container-main */
+.container{
+    background-color: white;
+}
+.container.top{
+    padding: 15px 40px 10px;
+    border-bottom: 3px solid rgba(231, 231, 231, 0.5);
+    border-radius: 5px 5px 0 0 ;
+}
+.container.bottom{
+    padding: 30px 40px;
+    border-radius: 0 0 5px 5px;
+}
